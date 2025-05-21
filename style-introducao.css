@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/imagens/0eddd416b5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 999;
+}
+    
+
+.container h1, h2 {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5rem;
+    background: #ebebeb;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.container h1 {
+    font-size: 1.9rem;
+    padding: 1rem 0rem;
+}
+
+.Pergunta, .Resposta{
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.2rem 2rem;
+}
+
+.aviso {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'poppins';
+
+}
+.aviso span {
+    color: green;
+    font-size: 2.3rem;
+}
+
+.intro {
+    font-size: 2.5rem;
+    font-family: 'poppins';
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem 0rem;
+    text-transform: capitalize;
+}
+
+.Questao {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'poppins';
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section{
+    padding-bottom: 2rem;
+}
+
+.score-container {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background: linear-gradient(to right, #45096d, #b479d8);
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.score-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.opcao {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
